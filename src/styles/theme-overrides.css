@@ -5,3 +5,6 @@
   text-decoration: none;
   list-style: none;
 }
+.p-rating-cancel-item {
+  display: none;
+}

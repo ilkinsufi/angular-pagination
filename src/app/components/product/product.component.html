@@ -2,9 +2,9 @@
   <!-- <img src="{{ product.image }}" alt="Product Thumbnail" /> -->
   <img [src]="product.image" alt="Product Thumbnail" />
   <h2 class="titile">{{ product.name }}</h2>
-  <div class="row">
-    <span class="price-label">Qiymət</span>
-    <span class="price">{{ product.price }}</span>
+  <div class="row gap-05">
+    <span class="price-label">Qiymət: </span>
+    <span class="price">{{ " " }}{{ product.price }}₼</span>
   </div>
 
   <p-rating
